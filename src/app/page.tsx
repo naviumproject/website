@@ -41,32 +41,32 @@ export default function Home() {
           <AnimatedDivision className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4 mt-4">
             <FeatureList
               icon={<CodeBracketIcon width={96}></CodeBracketIcon>}
-              featureName="Funny Strings"
-              featureDesc={<>We&apos;re changing quite a few strings so it becomes a little funnier. Includes latest 21<sup>st</sup> century humours, privacy scandals, and more!</>}
+              featureName="(un)funny strings"
+              featureDesc={<>We&apos;re changing quite a few strings so it becomes a little funnier. Includes latest 21st century humours, privacy scandals, and more!</>}
             ></FeatureList>
             <FeatureList
               icon={<SwatchIcon width={96}></SwatchIcon>}
-              featureName="3 New Colors"
-              featureDesc={<>Featuring <b>t r a s h</b>, <b>Piss off</b>, and <b>Who tf farted?</b> These colors are just Pissandshittium&apos;s and i have nothing to do about it.</>}
+              featureName="Better colors, trust me"
+              featureDesc={<>Featuring <b>t r a s h</b>, <b>Piss off</b>, <b>Who tf farted?</b>, <b>Turqueseishon</b>, etc. These colors are just Pissandshittium&apos;s and i have nothing to do about it. Turqueseshion and other colors are navium&apos;s.</>}
             ></FeatureList>
             <FeatureList
               icon={<QuestionMarkCircleIcon width={96}></QuestionMarkCircleIcon>}
               featureName="Google API?"
-              featureDesc={<>luna.</>}
+              featureDesc={<>luna. You can sign in to Google to sync your activity though.</>}
             ></FeatureList>
             <FeatureList
               icon={<ChatBubbleOvalLeftIcon width={96}></ChatBubbleOvalLeftIcon>}
               featureName="Easter Eggs"
-              featureDesc={<>Hidden beneath the app are some easter eggs and reference to whatever I want to add. Expect a harmless surprise coming your way!</>}
+              featureDesc={<>Yes. Hidden beneath the app are some easter eggs and reference to whatever I want to add. Expect a harmless surprise coming your way!</>}
             ></FeatureList>
             <FeatureList
               icon={<CloudArrowUpIcon width={96}></CloudArrowUpIcon>}
               featureName="Open Source"
-              featureDesc={<>We believe in open source software. So we&apos;re making changes visible to the public eye just like regular Chromium. If you don&apos;t believe in builds provided. Feel very free to compile it yourself.</>}
+              featureDesc={<>We like open source software. So we&apos;re making changes visible to the public eye just like regular Chromium. If you don&apos;t believe in builds provided. Feel very free to compile it yourself.</>}
             ></FeatureList>
             <FeatureList
               icon={<DocumentIcon width={96}></DocumentIcon>}
-              featureName="I don't know what I'm doing"
+              featureName="I don't really know what I'm doing"
               featureDesc={<>honestly, i dont know what im doing while compiling this and i cant even compile it tho so whatever.</>}
             ></FeatureList>
           </AnimatedDivision>
@@ -87,7 +87,7 @@ export default function Home() {
           <h1>Testimonials (spoiler: John Doe)</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4">
             <div className="flex flex-col justify-center">
-              <Quote author="John Doe">
+              <Quote author="John Doe" authorDesc="A random guy on the internet">
                 I love this browser! It has a lot of features and is very fast. I would definitely recommend it to anyone.
               </Quote>
             </div>
