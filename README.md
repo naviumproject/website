@@ -37,4 +37,4 @@ The (not so easy for me) easiest way to deploy your Next.js app is to use the [V
 
 ---------------------------
 Deploying on Netlify is for me the easiest and friendliest, and it's also the way i deployed the website.
-just go to netlify and deploy it idk how to make instructions sorry
+just go to Netlify and deploy it idk how to make instructions sorry!! ok eyah xd
