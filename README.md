@@ -1,6 +1,6 @@
 Website for navium cool browser made in Next.js
 
-(hey guys im back)
+(hey guys im back sorry for being too inactive haha)
 
 ## Getting Started
 
@@ -37,5 +37,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-# Deploy on Netlify (the way i used, for now the easiest and friendliest for me)
+## Deploy
+Deploying on Netlify is for me the easiest and friendliest, and it's also the way i deployed the website.
 just go to netlify and deploy it idk how to make instructions sorry
