@@ -52,8 +52,8 @@ export default function Hero(){
                 </h2>
                 <div className="flex gap-4 flex-col w-full flex-shrink lg:flex-row justify-center">
 
-                <DownloadButton downloadText="(pick this!!!!) Super very very super cool Windows Download Page!" downloadLink={latest ? "https://files.aikoyori.xyz/pissandshittium/" + latest : "https://files.aikoyori.xyz/pissandshittium/"}></DownloadButton>
-                <DownloadButton downloadText="Uninstall for Linux, any day now." downloadLink="https://github.com/Pissandshittium/pissandshittium/issues/3"></DownloadButton>
+                <DownloadButton downloadText="Download 4 Windows 10/11 (soon)" downloadLink={latest ? "https://github.com/naviumproject/navium/releases" + latest : "https://github.com/naviumproject/navium/releases"}></DownloadButton>
+                <DownloadButton downloadText="download for other platforms (soon)" downloadLink="https://github.com/naviumproject/navium#otherplatforms"></DownloadButton>
                 </div>
             </motion.div>
 
@@ -62,7 +62,7 @@ export default function Hero(){
     )
 }
 async function getLatestVersion() {
-    const response = await fetch(`https://files.aikoyori.xyz/pissandshittium/VERSION`, { cache: 'no-store' });
+    const response = await fetch(`https://github.com/naviumproject/navium/releases/latest`, { cache: 'no-store' });
 
     if (!response.ok) {
         throw new Error(`Version request failed: ${response.status}`);
