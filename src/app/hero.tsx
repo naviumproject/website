@@ -12,12 +12,14 @@ export default function Hero(){
     const [ latest, setLatest ] = useState("")
     useEffect(() => {
         getLatestVersion()
-          .then((res) => res.text())
           .then((data) => {
-            
-            setLatest(data)
+                        setLatest(data.trim())
             setLoading(false)
           })
+                    .catch(() => {
+                        setLatest("")
+                        setLoading(false)
+                    })
       }, [])
      
     return (
@@ -50,7 +52,7 @@ export default function Hero(){
                 </h2>
                 <div className="flex gap-4 flex-col w-full flex-shrink lg:flex-row justify-center">
 
-                <DownloadButton downloadText="(pick this!!!!) Super very very super cool Windows Download Page!" downloadLink={"https://files.aikoyori.xyz/pissandshittium/"+latest}></DownloadButton>
+                <DownloadButton downloadText="(pick this!!!!) Super very very super cool Windows Download Page!" downloadLink={latest ? "https://files.aikoyori.xyz/pissandshittium/" + latest : "https://files.aikoyori.xyz/pissandshittium/"}></DownloadButton>
                 <DownloadButton downloadText="Uninstall for Linux, any day now." downloadLink="https://github.com/Pissandshittium/pissandshittium/issues/3"></DownloadButton>
                 </div>
             </motion.div>
@@ -60,6 +62,12 @@ export default function Hero(){
     )
 }
 async function getLatestVersion() {
-    return (await fetch(`https://files.aikoyori.xyz/pissandshittium/VERSION`, { cache: 'no-store' }));
+    const response = await fetch(`https://files.aikoyori.xyz/pissandshittium/VERSION`, { cache: 'no-store' });
+
+    if (!response.ok) {
+        throw new Error(`Version request failed: ${response.status}`);
+    }
+
+    return response.text();
 
   }
