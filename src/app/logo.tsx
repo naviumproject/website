@@ -30,7 +30,7 @@ const control = useAnimationControls();
         if(isAnimated) control.set('reset')
         control.start('rotate')
     }} variants={variants} animate={control}>
-      <Image src="/pissandshittium.svg" alt="" width={128} height={128}></Image>
+      <Image src="/navium_iconandtitle.png" alt="Navium" width={320} height={96} priority></Image>
     </motion.div>
   );
 }

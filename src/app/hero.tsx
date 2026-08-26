@@ -44,17 +44,14 @@ export default function Hero(){
             >
                 <h1 className="flex-col lg:flex-row flex items-center justify-center gap-4 text-3xl md:text-4xl lg:text-[4rem] 2xl:text-[7rem] font-extrabold font-display">
                     <Logo></Logo>
-                    <span className="mix-blend-difference dark:mix-blend-exclusion text-center text-light-secondary dark:text-light-accent h-full flex items-center">
-                        Pissand&shy;shittium
-                    </span>
                 </h1>
                 <h2 className=" mix-blend-difference dark:mix-blend-exclusion  text-light-secondary dark:text-light-accent text-base md:text-3xl 2xl:text-4xl text-center">
-                    The Browser that doesn&apos;t <span>give a SHIT</span>.
+                    The Browser that probably <span>gives a FAHHHHHH</span>.
                 </h2>
                 <div className="flex gap-4 flex-col w-full flex-shrink lg:flex-row justify-center">
 
-                <DownloadButton downloadText="Download for Windows" downloadLink={"https://files.aikoyori.xyz/pissandshittium/"+latest}></DownloadButton>
-                <DownloadButton downloadText="Download for Linux, any day now" downloadLink="https://github.com/Pissandshittium/pissandshittium/issues/3"></DownloadButton>
+                <DownloadButton downloadText="(pick this!!!!) Super very very super cool Windows Download Page!" downloadLink={"https://files.aikoyori.xyz/pissandshittium/"+latest}></DownloadButton>
+                <DownloadButton downloadText="Uninstall for Linux, any day now." downloadLink="https://github.com/Pissandshittium/pissandshittium/issues/3"></DownloadButton>
                 </div>
             </motion.div>
 

@@ -14,15 +14,15 @@ import NagbarButton from './NagbarButton';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://pissandshittium.org'),
-  title: 'Pissandshittium',
-  description: 'Browser that does not care about you.',
+  title: 'navium',
+  description: 'Browser that does probably care about u.',
   openGraph:{
     images:[
       {
-        url:'/pissandshittium.png',
+        url:'/navium_iconandtitle.png',
         width:128,
         height:128,
-        alt:'Pissandshittium Logo'
+        alt:'Navium Logo'
       }
     ]
   }
@@ -39,7 +39,7 @@ export default function RootLayout({
         
       <WebThemeProvider>
       <ThemeSwitcher></ThemeSwitcher>
-      <NagBar message={<><b>Warning!</b> The latest build of Pissandshittium is somewhat broken. <NagbarButton href="/broken">Tell me more</NagbarButton></>}></NagBar>
+      <NagBar message={<><b>hallo</b> did you know i have a secret? i didnt too! <NagbarButton href="/broken">Tell me absolutely nothing, i dont care brah</NagbarButton></>}></NagBar>
         {children}
       
       <Footer></Footer>

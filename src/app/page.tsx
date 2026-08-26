@@ -23,57 +23,20 @@ export default function Home() {
         <AnimatedSection>
           <h2>A Browser that doesn&apos;t care</h2>
           <span>
-            At Pissandshittium, we don&apos;t care how you use your browser. Nor
-            do we care about anything in this browser. We&apos;re adding whatever the FUCK we want to the browser and no one can stop it.
+            at navium, we do probably care how you use your browser. and
+            do we care about anything in this browser. We&apos;re adding whatever the FUH we want to teh browser and no one can stop it.
             <h3 className="mt-4">
               How did this start?
             </h3>
             <span>
-              It started when someone brought up certain red browser in a popular YouTuber&apos;s Discord as a hot take. Then at that moment I decided to fork Chromium naming it &quot;Pissandshittium&quot; making it sound not too serious.
+              It started when i wanted it to freaking start. so i basically wanted to make my very own browser with actual (un)funny jokes and yeah-
               <br />
-              I am basically proving that even you can make your own web browser based on Chromium.
+              I am basically proving that i can make a browser with my own jokes and features. and i did it. and now you can use it too.
             </span>
           </span>
         </AnimatedSection>
         <AnimatedSection>
           <h1>&quot;Features&quot;</h1>
-          <span className="text-sm">Disclaimer: This was written by Microsoft&apos;s Copilot. We don&apos;t actually do any of these and really we just think it&apos;s super funny.</span>
-          <AnimatedDivision className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4 mt-4">
-            <FeatureList
-              icon={<CpuChipIcon width={96}></CpuChipIcon>}
-              featureName="Unrivaled Inefficiency"
-              featureDesc="Our browser is guaranteed to use more system resources than any other browser on the market. Your computer didn’t need that RAM anyway, right?"
-            ></FeatureList>
-            <FeatureList
-              icon={<WindowIcon width={96}></WindowIcon>}
-              featureName="Invasive Ads"
-              featureDesc="Enjoy a browsing experience filled with so many ads, you’ll forget what you were originally searching for. Who doesn’t love a good pop-up ad now and then?"
-            ></FeatureList>
-            <FeatureList
-              icon={<EyeSlashIcon width={96}></EyeSlashIcon>}
-              featureName="Lack of Privacy"
-              featureDesc="Why browse anonymously when you can share your data with the world? We believe in open source, especially when it comes to your personal information."
-            ></FeatureList>
-            <FeatureList
-              icon={<UserCircleIcon width={96}></UserCircleIcon>}
-              featureName="Nonexistent Customer Support"
-              featureDesc="Got a problem? Good luck with that! Our customer support team is as elusive as Bigfoot."
-            ></FeatureList>
-            <FeatureList
-              icon={<StopCircleIcon width={96}></StopCircleIcon>}
-              featureName="Frequent Crashes"
-              featureDesc="Our browser crashes so often, it could be a feature in a demolition derby. But hey, everyone needs a break sometimes, right?
-              "
-            ></FeatureList>
-            <FeatureList
-              icon={<ClockIcon width={96}></ClockIcon>}
-              featureName="Slow Loading Times"
-              featureDesc="Patience is a virtue, and our browser is here to teach you that. Watch as websites load slower than a snail racing through peanut butter.
-              "
-            ></FeatureList>
-          </AnimatedDivision>
-        </AnimatedSection>
-        <AnimatedSection>
           <h1>Actual Features</h1>
           <AnimatedDivision className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4 mt-4">
             <FeatureList
@@ -84,12 +47,12 @@ export default function Home() {
             <FeatureList
               icon={<SwatchIcon width={96}></SwatchIcon>}
               featureName="3 New Colors"
-              featureDesc={<>Featuring <b>Literal Shit</b>, <b>Piss off</b>, and <b>Who tf farted?</b> These colours really compliments the Piss and shit in the name!</>}
+              featureDesc={<>Featuring <b>t r a s h</b>, <b>Piss off</b>, and <b>Who tf farted?</b> These colors are just Pissandshittium&apos;s and i have nothing to do about it.</>}
             ></FeatureList>
             <FeatureList
               icon={<QuestionMarkCircleIcon width={96}></QuestionMarkCircleIcon>}
               featureName="Google API?"
-              featureDesc={<>Windows build have my Google API keys so you can still sign in. Not recommended though.</>}
+              featureDesc={<>luna.</>}
             ></FeatureList>
             <FeatureList
               icon={<ChatBubbleOvalLeftIcon width={96}></ChatBubbleOvalLeftIcon>}
@@ -99,12 +62,12 @@ export default function Home() {
             <FeatureList
               icon={<CloudArrowUpIcon width={96}></CloudArrowUpIcon>}
               featureName="Open Source"
-              featureDesc={<>We believe in open source software. So we&apos;re making changes visible to the public eye just like regular Chromium. If you don&apos;t believe in builds provided. Feel free to compile it yourself.</>}
+              featureDesc={<>We believe in open source software. So we&apos;re making changes visible to the public eye just like regular Chromium. If you don&apos;t believe in builds provided. Feel very free to compile it yourself.</>}
             ></FeatureList>
             <FeatureList
               icon={<DocumentIcon width={96}></DocumentIcon>}
               featureName="I don't know what I'm doing"
-              featureDesc={<>Honestly, I just tried to fix bugs but the codebase was very unstable (the code is unstable by nature) but you&apos;ll get to try the latest Chrome feature!</>}
+              featureDesc={<>honestly, i dont know what im doing while compiling this and i cant even compile it tho so whatever.</>}
             ></FeatureList>
           </AnimatedDivision>
         </AnimatedSection>
@@ -121,68 +84,14 @@ export default function Home() {
           </div>
         </AnimatedSection>
         <AnimatedSection>
-          <h1>Testimonials</h1>
+          <h1>Testimonials (spoiler: John Doe)</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4">
             <div className="flex flex-col justify-center">
-              <h2 className="top-margin-spacing pb-4 text-center">Brodie Robertson</h2>
-              <span>
-                <iframe width="100%" height="380px" src="https://www.youtube.com/embed/sZAtPvdgTM0?si=1r4nla3WpiMdTw-T" title="YouTube video player" frameBorder={0}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
-              </span>            
+              <Quote author="John Doe">
+                I love this browser! It has a lot of features and is very fast. I would recommend it to anyone.
+              </Quote>
             </div>
-            <div className="flex gap-6 flex-col">
-            <Quote author={<span><a  className="link" href="https://www.reddit.com/r/browsers/comments/18kwbil/pissandshittium_is_my_new_favorite_browser_now/">u/FurryRevolution</a> on Reddit</span>}>
-              <span className="italic">Pissandshittium is my new favorite browser now!</span>
-            </Quote>         
-            <Quote author={<span><a  className="link" href="https://www.reddit.com/r/browsers/comments/18kwbil/comment/kducv1u">u/Cylancer7253</a> on Reddit</span>}>
-              <span className="italic">I like it. Sounds just like any other chromium based browser. Can&apos;t wait for Poopenfartenfox to be finished.</span>
-            </Quote>              
-            </div>
-
           </div>
-
-        </AnimatedSection>
-        <AnimatedSection>
-          <h1>FAQs</h1>
-          <h2 className="top-margin-spacing">Is this a virus?</h2>
-          <span>
-            No. It&apos;s a Chromium fork. It&apos;s also open source. You can compile it yourself if you want to.
-          </span>
-          <h2 className="top-margin-spacing">Is this safe to use?</h2>
-          <span>
-            Yes, if you so desire to daily drive this browser. It&apos;s pretty much safe to use. But we don&apos;t recommend you use it as your main as it can be quite unstable.
-          </span>
-          <h2 className="top-margin-spacing">How do I compile this thing?</h2>
-          <span>
-            Obtain Chromium source code using depot_tools, pull Pissandshittium&apos;s source code, and then compile it. It&apos;s that simple.
-          </span>
-          <h2 className="top-margin-spacing">Do you plan to do this with Firefox?</h2>
-          <span>
-            Yes and it will be named Poopenfartenfox.
-          </span>
-        </AnimatedSection>
-        <AnimatedSection>
-          <h1>Acknow&shy;ledgement</h1>
-          <span>
-            I would like to give all credits to <a className="link" href="https://www.chromium.org/">The Chromium Project contributors</a> for making the backbone of Google Chrome and whatever this is possible. 
-            Without them, this project wouldn&apos;t exist ever. I would also like to thank people in MMSI for words of (not so) encouragement and help with compilation on Linux.
-          </span>
-        </AnimatedSection>
-        <AnimatedSection>
-          
-          <h1>Credits</h1>
-          <span>
-          <a className="link" href="https://www.chromium.org/">The Chromium Project</a> (duh)
-            <br/>
-          <a className="link" href="https://heroicons.com/">HeroIcons</a> for icons on features section.
-            <br/>
-          <a className="link" href="https://fontawesome.com/">Font Awesome</a> Brand Icons for brand icons.
-            <br/>
-          MMSI for build labs
-            <br/>
-            Others for some feedback
-
-          </span>
         </AnimatedSection>
       </motion.div>
     </>

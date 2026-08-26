@@ -1,4 +1,6 @@
-Website for Pissandshittium Browser made in Next.js
+Website for navium cool browser made in Next.js
+
+(hey guys im back)
 
 ## Getting Started
 
