@@ -88,7 +88,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4">
             <div className="flex flex-col justify-center">
               <Quote author="John Doe">
-                I love this browser! It has a lot of features and is very fast. I would recommend it to anyone.
+                I love this browser! It has a lot of features and is very fast. I would definitely recommend it to anyone.
               </Quote>
             </div>
           </div>

@@ -50,10 +50,10 @@ export default function Hero(){
                 <h2 className=" mix-blend-difference dark:mix-blend-exclusion  text-light-secondary dark:text-light-accent text-base md:text-3xl 2xl:text-4xl text-center">
                     The Browser that probably <span>gives a FAHHHHHH</span>.
                 </h2>
-                <div className="flex gap-4 flex-col w-full flex-shrink lg:flex-row justify-center">
+                <div className="flex gap-4 flex-col w-full flex-shrink items-center justify-center">
 
                 <DownloadButton downloadText="Download 4 Windows 10/11 (soon)" downloadLink={latest ? "https://github.com/naviumproject/navium/releases" + latest : "https://github.com/naviumproject/navium/releases"}></DownloadButton>
-                <DownloadButton downloadText="download for other platforms (soon)" downloadLink="https://github.com/naviumproject/navium#otherplatforms"></DownloadButton>
+                <DownloadButton compact downloadText="download for other platforms (soon)" downloadLink="https://github.com/naviumproject/navium#otherplatforms"></DownloadButton>
                 </div>
             </motion.div>
 
