@@ -37,7 +37,7 @@ export default function Home() {
         </AnimatedSection>
         <AnimatedSection>
           <h1>&quot;Features&quot;</h1>
-          <h1>Actual Features</h1>
+          <h1>(actual features lol)</h1>
           <AnimatedDivision className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4 mt-4">
             <FeatureList
               icon={<CodeBracketIcon width={96}></CodeBracketIcon>}
