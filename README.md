@@ -6,6 +6,7 @@ Website for navium cool browser made in Next.js
 
 hallo
 
+
 ## GettingStarted
 
 First, run the development server:
@@ -42,3 +43,7 @@ The (not so easy for me) easiest way to deploy your Next.js app is to use the [V
 ---------------------------
 Deploying on Netlify is for me the easiest and friendliest, and it's also the way i deployed the website.
 just go to Netlify and deploy it idk how to make instructions sorry!! ok eyah xd
+
+## about the monochromatic page
+
+i decided to implement it on the website because of nostalgia. do not make fun or whatever but idk eyah whatever just end this line ahh
