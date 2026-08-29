@@ -2,6 +2,10 @@ Website for navium cool browser made in Next.js
 
 (hey guys im back sorry for being too inactive haha) eyah yeah
 
+## TESTING README THING
+
+hallo
+
 ## GettingStarted
 
 First, run the development server:
