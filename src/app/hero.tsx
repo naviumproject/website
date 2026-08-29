@@ -54,6 +54,23 @@ export default function Hero(){
 
                 <DownloadButton downloadText="Download for Windows 10/11 (soon)" downloadLink={latest ? "https://github.com/naviumproject/navium/releases" + latest : "https://github.com/naviumproject/navium/releases"}></DownloadButton>
                 <DownloadButton compact downloadText="download for other platforms (soon)" downloadLink="https://github.com/naviumproject/navium#otherplatforms"></DownloadButton>
+
+                <motion.img
+                    src="/hero/monochromaticimage.png"
+                    alt="Monochromatic browser preview"
+                    initial={{ opacity: 0, y: 24, scale: 0.98 }}
+                    animate={{
+                        opacity: 1,
+                        y: [0, -10, 0],
+                        scale: 1,
+                        transition: {
+                            opacity: { duration: 0.8, delay: 1.8 },
+                            y: { duration: 3.2, ease: "easeInOut", repeat: Infinity, repeatType: "mirror" },
+                            scale: { duration: 0.8, delay: 1.8 }
+                        }
+                    }}
+                    className="w-full max-w-[1100px] rounded-[1.75rem] border border-black/10 bg-white/5 shadow-[0_30px_80px_rgba(0,0,0,0.18)]"
+                />
                 </div>
             </motion.div>
 
