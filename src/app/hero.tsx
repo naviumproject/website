@@ -43,7 +43,7 @@ export default function Hero(){
         initial={{opacity:0, translateY:-300}}
         animate={{opacity:1, translateY:0, transition:{duration:0.75,delay:1.8,}}}
         style={{translateY: useTransform(scrollYProgress, l => l*-300),rotateZ:useTransform(scrollYProgress, l => l*-8+4)}} src="/hero/monochromaticimage.png" 
-        className="absolute overflow-x-clip sepia saturate-200 bottom-[-12%] left-[50%] -translate-x-1/2 -z-10 brightness-50 dark:hue-rotate-[100deg] blur-sm w-[min(78vw,1000px)] rounded-[2rem] opacity-80"></motion.img>
+        className="absolute overflow-x-clip sepia saturate-200 bottom-[-12%] left-[50%] -translate-x-1/2 -z-10 brightness-50 dark:hue-rotate-[100deg] blur-sm w-[min(78vw,1000px)] opacity-80"></motion.img>
 
             <motion.div className="items-center justify-center flex-col gap-8 flex"
                         initial={{opacity:0, translateY:100}}
