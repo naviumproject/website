@@ -45,16 +45,16 @@ export default function Hero(){
         style={{translateY: useTransform(scrollYProgress, l => l*-300),rotateZ:useTransform(scrollYProgress, l => l*-8+4)}} src="/hero/monochromaticimage.png" 
         className="absolute overflow-x-clip sepia saturate-200 bottom-[-12%] left-[50%] -translate-x-1/2 -z-10 brightness-50 dark:hue-rotate-[100deg] blur-sm w-[min(78vw,1000px)] opacity-80"></motion.img>
 
-            <motion.div className="items-center justify-center flex-col gap-8 flex"
+            <motion.div className="items-center justify-center flex-col gap-4 flex"
                         initial={{opacity:0, translateY:100}}
                         animate={{opacity:1, translateY:0, transition:{duration:0.5,delay:0.5}}}
             >
+                <h2 className="mix-blend-difference dark:mix-blend-exclusion text-light-secondary dark:text-light-accent text-xs md:text-sm 2xl:text-base text-center max-w-3xl leading-relaxed">
+                    Teh pretty cool actually serious ungoogled-chromium-based browser that probably <span>gives a sdjasiod</span>.
+                </h2>
                 <h1 className="flex-col lg:flex-row flex items-center justify-center gap-4 text-3xl md:text-4xl lg:text-[4rem] 2xl:text-[7rem] font-extrabold font-display">
                     <Logo></Logo>
                 </h1>
-                <h2 className=" mix-blend-difference dark:mix-blend-exclusion  text-light-secondary dark:text-light-accent text-base md:text-3xl 2xl:text-4xl text-center">
-                    Teh pretty cool actually serious ungoogled-chromium-based browser that probably <span>gives a sdjasiod</span>.
-                </h2>
                 <div className="flex gap-4 flex-col w-full flex-shrink items-center justify-center">
 
                 <DownloadButton downloadText="Download for Windows 10/11 (soon)" downloadLink={latest ? "https://github.com/naviumproject/navium/releases" + latest : "https://github.com/naviumproject/navium/releases"}></DownloadButton>
