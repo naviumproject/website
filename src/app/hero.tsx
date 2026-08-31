@@ -49,7 +49,7 @@ export default function Hero(){
                         initial={{opacity:0, translateY:100}}
                         animate={{opacity:1, translateY:0, transition:{duration:0.5,delay:0.5}}}
             >
-                <h2 className="mix-blend-difference dark:mix-blend-exclusion text-light-secondary dark:text-light-accent text-sm md:text-base 2xl:text-lg text-center max-w-3xl leading-relaxed">
+                <h2 className="mix-blend-difference dark:mix-blend-exclusion text-light-secondary dark:text-light-accent text-base md:text-xl 2xl:text-2xl text-center max-w-4xl leading-relaxed">
                     Teh pretty cool actually serious ungoogled-chromium-based browser that probably <span>gives a sdjasiod</span>.
                 </h2>
                 <h1 className="flex-col lg:flex-row flex items-center justify-center gap-4 text-3xl md:text-4xl lg:text-[4rem] 2xl:text-[7rem] font-extrabold font-display">
