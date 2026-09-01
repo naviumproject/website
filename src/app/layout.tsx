@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph:{
     images:[
       {
-        url:'/navium_iconandtitle.png',
+        url:'/navium_icon.png',
         width:128,
         height:128,
         alt:'Navium Logo'

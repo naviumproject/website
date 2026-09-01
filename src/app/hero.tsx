@@ -50,14 +50,14 @@ export default function Hero(){
                         animate={{opacity:1, translateY:0, transition:{duration:0.5,delay:0.5}}}
             >
                 <h2 className="mix-blend-difference dark:mix-blend-exclusion text-light-secondary dark:text-light-accent text-base md:text-xl 2xl:text-2xl text-center max-w-4xl leading-relaxed">
-                    Teh pretty cool actually serious ungoogled-chromium-based browser that probably <span>gives a sdjasiod</span>.
+                    It&apos;s your browser. It&apos;s navium. (it probably <span>gives a sdjasiod)</span>.
                 </h2>
                 <h1 className="flex-col lg:flex-row flex items-center justify-center gap-4 text-3xl md:text-4xl lg:text-[4rem] 2xl:text-[7rem] font-extrabold font-display">
                     <Logo></Logo>
                 </h1>
                 <div className="flex gap-4 flex-col w-full flex-shrink items-center justify-center">
 
-                <DownloadButton downloadText="Download for Windows 10/11 (soon)" downloadLink={latest ? "https://github.com/naviumproject/navium/releases" + latest : "https://github.com/naviumproject/navium/releases"}></DownloadButton>
+                <DownloadButton downloadText="download navium (soon)" downloadLink={latest ? "https://github.com/naviumproject/navium/releases" + latest : "https://github.com/naviumproject/navium/releases"}></DownloadButton>
                 <DownloadButton compact downloadText="download for other platforms (soon)" downloadLink="https://github.com/naviumproject/navium#otherplatforms"></DownloadButton>
                 </div>
             </motion.div>
